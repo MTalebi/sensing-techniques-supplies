@@ -41,7 +41,7 @@ features = extract_features(x_clean)
 # 3. Dimensionality reduction
 pca = PCA(n_components=3)
 reduced_features = pca.fit_transform(features)
-#hello
+#hello no
 print(f"Original: {features.shape[1]} features")
 print(f"Reduced: {reduced_features.shape[1]} features")
 print(f"Variance explained: {pca.explained_variance_ratio_.sum():.3f}") 
